@@ -21,7 +21,7 @@ wells = [
 
 df_all_wells = pd.DataFrame()
 for well in wells:
-    filepath = "volve-wells-trajectory/" + well +".xml"
+    filepath = "../volve-wells-trajectory/" + well +".xml"
     with open(filepath) as f:
         data = f.read()
     data_xml = BeautifulSoup(data,'xml')
