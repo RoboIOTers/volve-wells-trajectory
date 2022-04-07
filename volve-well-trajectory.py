@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup #for web scraping purposes to pull the data out of
 import pandas as pd
 import plotly.express as ps
 
-filepath = ../../volve-wells-trajectory/
 columns = ['md','tvd','azi','incl','dispNs','dispEw']
 wells = [
     '9-F-1 C',
