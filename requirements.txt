@@ -3,5 +3,5 @@ plotly
 bs4
 html5lib
 lxml
-matplotlib
-pyplot
+matplotlib.pyplot
+
