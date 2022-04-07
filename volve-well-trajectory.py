@@ -33,5 +33,6 @@ for well in wells:
     df_all_wells= pd.concat([df_all_wells, df], ignore_index = True)
 
 df_all_wells['nmd']=df_all_wells['md']*-1
-fig =ps.line_3d(df_all_wells,'dispNs','dispEw','nmd','well',show_deprecation_warning=False)
+fig =ps.line_3d(df_all_wells,'dispNs','dispEw','nmd','well')
+fig.show()
 st.pyplot(fig)
