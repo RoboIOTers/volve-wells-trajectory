@@ -1,4 +1,4 @@
-pip install welly
+
 import streamlit as st
 import welly
 import matplotlib.pyplot as plt
