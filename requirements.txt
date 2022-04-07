@@ -1,2 +1,5 @@
 welly
 plotly
+bs4
+html5lib
+lxml
