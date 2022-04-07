@@ -35,4 +35,4 @@ for well in wells:
 df_all_wells['nmd']=df_all_wells['md']*-1
 fig = ps.line_3d(df_all_wells,'dispNs','dispEw','nmd','well')
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.write(fig)
+st.plotly_chart(fig, use_container_width=False)
