@@ -12,7 +12,7 @@ import plotly.express as ps
 
 Connect to me on  [Linkedin](https://www.linkedin.com/in/imranulhaquenoor/) and on [Twitter](https://twitter.com/roboIOTers).
 
-this is an interactive well trajectory of the wells from Volve field.
+#### This is an interactive well trajectory of the wells from Volve field.
 """
 columns = ['md','tvd','azi','incl','dispNs','dispEw']
 wells = [
@@ -49,7 +49,7 @@ st.plotly_chart(fig, use_container_width=False)
 """
 Try moving the above well-plot in 3D and as the well plot is interactive, you can get data points of the path at any location , just by moving the cursor towards it.
 
-Yoou you want some other functionality added to this plot, feel free to contact me.
+If You you want some functionality added to this plot, feel free to contact me.
 
 I am tech-savvy Petroleum Engineer, always looking towards integrating technology with Domain expertise to produce meaningful solutions.
 
