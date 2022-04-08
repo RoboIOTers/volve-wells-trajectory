@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as ps
 """
 # Welcome to Well Viewer Application!
-##### This application is designed by Imranul Haque
+##### This application is designed by Imranul Haque Noor
 :heart: :heart:
 
 Connect to me on  [Linkedin](https://www.linkedin.com/in/imranulhaquenoor/) and on [Twitter](https://twitter.com/roboIOTers).
@@ -44,3 +44,9 @@ df_all_wells['nmd']=df_all_wells['md']*-1
 fig = ps.line_3d(df_all_wells,'dispNs','dispEw','nmd','well')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.plotly_chart(fig, use_container_width=False)
+
+
+"""
+I am tech-savvy Petroleum Engineer, always looking towards integrating technology with Domain expertise to produce meaningful solutions.
+
+"""
