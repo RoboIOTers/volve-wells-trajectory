@@ -47,6 +47,10 @@ st.plotly_chart(fig, use_container_width=False)
 
 
 """
+Try moving the above well-plot in 3D and as the well plot is interactive, you can get data points of the path at any location , just by moving the cursor towards it.
+
+Yoou you want some other functionality added to this plot, feel free to contact me.
+
 I am tech-savvy Petroleum Engineer, always looking towards integrating technology with Domain expertise to produce meaningful solutions.
 
 """
